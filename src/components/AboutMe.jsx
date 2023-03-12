@@ -3,7 +3,7 @@ import React from "react";
 const AboutMe = () => {
 	return (
 		<div id="aboutMe" >
-			<img src='./src/assets/bg-image/matrix-356024_640.jpg' 
+			<img src='/matrix-2354492.jpg' 
 				alt="bg" 
 				className="w-full h-screen object-cover object-left opacity-20"/>
 
