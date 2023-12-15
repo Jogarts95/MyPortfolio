@@ -99,26 +99,26 @@ const Sidenav = () => {
           ''
         )}
 
-          <div className='md:block hidden fixed top-[25%] z-10'>
+          <div className='md:block hidden fixed top-[25%] z-10 bg-white rounded-r-[15px] shadow-md'>
             <div className='flex flex-col'>
-              <a href="#main" className='rounded-full shadow-md bg-black/20 outline-[#1dde1a] shadow-[#1dde1a]/70 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <AiOutlineHome className='text-[#1dde1a]' size={20}/>
+              <a href="#main" className='m-1 p-2 cursor-pointer hover:scale-110 hover:bg-[#1dde1a] rounded-tr-[12px] ease-in duration-300'>
+                <AiOutlineHome className='text-[#000]' size={20}/>
               </a>
 
-              <a href="#aboutMe" className='rounded-full shadow-md bg-black/20 outline-[#1dde1a] shadow-[#1dde1a]/70 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <FaThLarge className='text-[#1dde1a]' size={20}/>
+              <a href="#aboutMe" className='m-1 p-2 cursor-pointer hover:scale-110 hover:bg-[#1dde1a] ease-in duration-300'>
+                <FaThLarge className='text-[#000]' size={20}/>
               </a>
 
-              <a href="#projects" className='rounded-full shadow-md bg-black/20 outline-[#1dde1a] shadow-[#1dde1a]/70 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <AiOutlineProject className='text-[#1dde1a]' size={20}/>
+              <a href="#projects" className='m-1 p-2 cursor-pointer hover:scale-110 hover:bg-[#1dde1a] ease-in duration-300'>
+                <AiOutlineProject className='text-[#000]' size={20}/>
               </a>
 
-              <a href="#main" className='rounded-full shadow-md bg-black/20 outline-[#1dde1a] shadow-[#1dde1a]/70 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <BsPerson className='text-[#1dde1a]' size={20}/>
+              <a href="#main" className='m-1 p-2 cursor-pointer hover:scale-110 hover:bg-[#1dde1a] ease-in duration-300'>
+                <BsPerson className='text-[#000]' size={20}/>
               </a>
 
-              <a href="#contacto" className='rounded-full shadow-md bg-black/20 outline-[#1dde1a] shadow-[#1dde1a]/70 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <AiOutlineMail className='text-[#1dde1a]' size={20}/>
+              <a href="#contacto" className='m-1 p-2 cursor-pointer hover:scale-110 hover:bg-[#1dde1a] rounded-br-[12px] ease-in duration-300'>
+                <AiOutlineMail className='text-[#000]' size={20}/>
               </a>
             </div>
           </div>
