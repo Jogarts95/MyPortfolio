@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 body {
-    background-color: #1a1a1a;
+    background-image: url('/public/Moon.svg');
+    background-size: cover;
 }
 
 * {

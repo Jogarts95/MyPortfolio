@@ -99,8 +99,8 @@ const Sidenav = () => {
           ''
         )}
 
-          <div className='md:block hidden fixed top-[25%] z-10 bg-[#1e1e1e] '>
-            <div className='flex flex-col shadow-lg shadow-[#affc4f] rounded-r-[15px]'>
+          <div className='md:block hidden fixed top-[25%] z-10 rounded-r-[15px] backdrop-blur-3xl shadow-lg shadow-slate-800'>
+            <div className='flex flex-col'>
               <a href="#main" className=''>
                 <AiOutlineHome className='text-[#fff] hover:text-[#000] hover:bg-[#affc4f] rounded-tr-[12px] m-1 p-2 cursor-pointer hover:scale-110 ease-in duration-300' size={40}/>
               </a>
