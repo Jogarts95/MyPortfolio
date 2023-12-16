@@ -4,9 +4,9 @@ module.exports = {
   theme: {
     extend: {
       boxShadow: {
-        before: "-10px 10px 0 #2e2d2d",
-        before_2: "-10px -10px 0 #2e2d2d",
-        after: "-10px 10px 0 #2e2d2d",
+        before: "-10px 10px 0 #f2e7e7",
+        before_2: "-10px -10px 0 #f2e7e7",
+        after: "-10px 10px 0 #f2e7e7",
         after_2: "-10px 10px 0 #048C8C",
       },
       colors: {

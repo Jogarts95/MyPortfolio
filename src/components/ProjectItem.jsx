@@ -15,7 +15,7 @@ const ProjectItem = ({ img, title, description, git, demo }) => {
             {/* Container */}
             <div className={'relative w-full h-[150px] bg-primary rounded-2xl rounded-tl-none'}>
                 {/* Content */}
-                <span className='absolute left-0 w-1/2 h-[80px] -top-[80px] bg-primary border-t-[10px] border-r-[10px] border-[#2e2d2d]
+                <span className='absolute left-0 w-1/2 h-[80px] -top-[80px] bg-primary border-t-[10px] border-r-[10px] border-[#f2e7e7]
                 rounded-tr-[25px] before:absolute before:w-[25px] before:h-[25px] before:bg-transparent before:rounded-full before:shadow-before_2 after:absolute after:bottom-0 after:-right-[25px] after:w-[25px] after:h-[25px] after:bg-transparent after:rounded-full after:shadow-after_2'>
                     <p className="text-white">{title}</p>
                 </span>

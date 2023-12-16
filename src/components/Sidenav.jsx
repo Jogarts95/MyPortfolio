@@ -22,7 +22,7 @@ const Sidenav = () => {
       <div className='absolute z-[99] md:hidden'>
       <AiOutlineMenu 
         onClick={handleNav}
-        className='fixed bg-black p-1 text-[#1dde1a] rounded-full shadow-md outline-[#1dde1a] shadow-[#1dde1a]/70 cursor-pointer hover:scale-110 ease-in duration-300 top-4 right-4'
+        className='fixed bg-black p-1 text-[#affc4f] rounded-full shadow-md outline-[#affc4f] shadow-[#affc4f]/70 cursor-pointer hover:scale-110 ease-in duration-300 top-4 right-4'
         size={30}
         />
       </div>
@@ -33,12 +33,12 @@ const Sidenav = () => {
             <a 
               onClick={handleNav} 
               href="#main" 
-              className='w-[75%] flex justify-center items-center rounded-full shadow-md bg-[#000]/80 outline-[#1dde1a] shadow-[#1dde1a]/70 m-2 p-2 cursor-pointer hover:scale-110 ease-in duration-200'>
+              className='w-[75%] flex justify-center items-center rounded-full shadow-md bg-[#000]/80 outline-[#affc4f] shadow-[#affc4f]/70 m-2 p-2 cursor-pointer hover:scale-110 ease-in duration-200'>
               <AiOutlineHome 
-                className='text-[#1dde1a]' 
+                className='text-[#affc4f]' 
                 size={20}/>
               <span 
-                className='pl-4 text-[#1dde1a]'>
+                className='pl-4 text-[#affc4f]'>
                   Inicio
               </span>
             </a>
@@ -46,12 +46,12 @@ const Sidenav = () => {
             <a 
               onClick={handleNav} 
               href="#aboutMe" 
-              className='w-[75%] flex justify-center items-center rounded-full shadow-md bg-[#000]/80 outline-[#1dde1a] shadow-[#1dde1a]/70 m-2 p-2 cursor-pointer hover:scale-110 ease-in duration-200'>
+              className='w-[75%] flex justify-center items-center rounded-full shadow-md bg-[#000]/80 outline-[#affc4f] shadow-[#affc4f]/70 m-2 p-2 cursor-pointer hover:scale-110 ease-in duration-200'>
               <FaThLarge 
-                className='text-[#1dde1a]' 
+                className='text-[#affc4f]' 
                 size={18}/>
               <span 
-                className='pl-4 text-[#1dde1a]'>
+                className='pl-4 text-[#affc4f]'>
                   Acerca de mí
               </span>
             </a>
@@ -59,12 +59,12 @@ const Sidenav = () => {
             <a 
               onClick={handleNav} 
               href="#projects" 
-              className='w-[75%] flex justify-center items-center rounded-full shadow-md bg-[#000]/80 outline-[#1dde1a] shadow-[#1dde1a]/70 m-2 p-2 cursor-pointer hover:scale-110 ease-in duration-200'>
+              className='w-[75%] flex justify-center items-center rounded-full shadow-md bg-[#000]/80 outline-[#affc4f] shadow-[#1dde1a]/70 m-2 p-2 cursor-pointer hover:scale-110 ease-in duration-200'>
               <AiOutlineProject 
-                className='text-[#1dde1a]' 
+                className='text-[#affc4f]' 
                 size={20}/>
               <span 
-                className='pl-4 text-[#1dde1a]'>
+                className='pl-4 text-[#affc4f]'>
                   Proyectos
               </span>
             </a>
@@ -72,12 +72,12 @@ const Sidenav = () => {
             <a 
               onClick={handleNav} 
               href="#main" 
-              className='w-[75%] flex justify-center items-center rounded-full shadow-md bg-[#000]/80 outline-[#1dde1a] shadow-[#1dde1a]/70 m-2 p-2 cursor-pointer hover:scale-110 ease-in duration-200'>
+              className='w-[75%] flex justify-center items-center rounded-full shadow-md bg-[#000]/80 outline-[#affc4f] shadow-[#1dde1a]/70 m-2 p-2 cursor-pointer hover:scale-110 ease-in duration-200'>
               <BsPerson 
-                className='text-[#1dde1a]' 
+                className='text-[#affc4f]' 
                 size={20}/>
               <span 
-                className='pl-4 text-[#1dde1a]'>
+                className='pl-4 text-[#affc4f]'>
                   Resume
               </span>
             </a>
@@ -85,12 +85,12 @@ const Sidenav = () => {
             <a 
               onClick={handleNav} 
               href="#contacto" 
-              className='w-[75%] flex justify-center items-center rounded-full shadow-md bg-[#000]/80 outline-[#1dde1a] shadow-[#1dde1a]/70 m-2 p-2 cursor-pointer hover:scale-110 ease-in duration-200'>
+              className='w-[75%] flex justify-center items-center rounded-full shadow-md bg-[#000]/80 outline-[#affc4f] shadow-[#affc4f]/70 m-2 p-2 cursor-pointer hover:scale-110 ease-in duration-200'>
               <AiOutlineMail 
-                className='text-[#1dde1a]' 
+                className='text-[#affc4f]' 
                 size={20}/>
               <span 
-                className='pl-4 text-[#1dde1a]'>
+                className='pl-4 text-[#affc4f]'>
                   Contacto
               </span>
             </a>
@@ -99,26 +99,26 @@ const Sidenav = () => {
           ''
         )}
 
-          <div className='md:block hidden fixed top-[25%] z-10 bg-white rounded-r-[15px] shadow-md'>
-            <div className='flex flex-col'>
-              <a href="#main" className='m-1 p-2 cursor-pointer hover:scale-110 hover:bg-[#1dde1a] rounded-tr-[12px] ease-in duration-300'>
-                <AiOutlineHome className='text-[#000]' size={20}/>
+          <div className='md:block hidden fixed top-[25%] z-10 bg-[#1e1e1e] '>
+            <div className='flex flex-col shadow-lg shadow-[#affc4f] rounded-r-[15px]'>
+              <a href="#main" className=''>
+                <AiOutlineHome className='text-[#fff] hover:text-[#000] hover:bg-[#affc4f] rounded-tr-[12px] m-1 p-2 cursor-pointer hover:scale-110 ease-in duration-300' size={40}/>
               </a>
 
-              <a href="#aboutMe" className='m-1 p-2 cursor-pointer hover:scale-110 hover:bg-[#1dde1a] ease-in duration-300'>
-                <FaThLarge className='text-[#000]' size={20}/>
+              <a href="#aboutMe" className=''>
+                <FaThLarge className='text-[#fff] hover:text-[#000] hover:bg-[#affc4f] m-1 p-2 cursor-pointer hover:scale-110 ease-in duration-300' size={40}/>
               </a>
 
-              <a href="#projects" className='m-1 p-2 cursor-pointer hover:scale-110 hover:bg-[#1dde1a] ease-in duration-300'>
-                <AiOutlineProject className='text-[#000]' size={20}/>
+              <a href="#projects" className=''>
+                <AiOutlineProject className='text-[#fff] hover:text-[#000] hover:bg-[#affc4f] m-1 p-2 cursor-pointer hover:scale-110 ease-in duration-300' size={40}/>
               </a>
 
-              <a href="#main" className='m-1 p-2 cursor-pointer hover:scale-110 hover:bg-[#1dde1a] ease-in duration-300'>
-                <BsPerson className='text-[#000]' size={20}/>
+              <a href="#main" className=''>
+                <BsPerson className='text-[#fff] hover:text-[#000] hover:bg-[#affc4f] m-1 p-2 cursor-pointer hover:scale-110 ease-in duration-300' size={40}/>
               </a>
 
-              <a href="#contacto" className='m-1 p-2 cursor-pointer hover:scale-110 hover:bg-[#1dde1a] rounded-br-[12px] ease-in duration-300'>
-                <AiOutlineMail className='text-[#000]' size={20}/>
+              <a href="#contacto" className=''>
+                <AiOutlineMail className='text-[#fff] hover:text-[#000] hover:bg-[#affc4f] rounded-br-[12px] m-1 p-2 cursor-pointer hover:scale-110 ease-in duration-300' size={40}/>
               </a>
             </div>
           </div>
