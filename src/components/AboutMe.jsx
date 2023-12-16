@@ -14,7 +14,7 @@ const AboutMe = () => {
 						Hola! Soy un apasionado desarrollador con experiencia en Frontend y Unity 3D. Mi objetivo es crear experiencias digitales excepcionales, combinando mi habilidad para diseñar interfaces atractivas y funcionales con la capacidad de desarrollar sólidas arquitecturas de software. Siempre estoy buscando desafíos emocionantes y oportunidades para crecer en el mundo de la tecnología. ¡Conéctate conmigo y exploremos juntos el mundo del desarrollo!
 					</div>
 
-					<img src="/public/ilustration.png" alt="matrix" className=" w-[100%] lg:w-[65%]"/>
+					<img src="/public/ilustration.png" alt="" className=" w-[100%] lg:w-[65%]"/>
 				</div>
 			</div>
 		</div>
