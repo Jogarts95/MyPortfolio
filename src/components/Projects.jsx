@@ -43,9 +43,8 @@ const Projects = () => {
   ];
 
   return (
-    <div id='projects' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
-      <h1 className='text text-4xl font-bold text-center text-[#000] m-9'>Proyectos</h1>
-      <p className='text-center py-5 text-[#fff] bg-[#000] rounded-[30px]'>Trabajos web que he desarrollado a lo largo de mis estudios y prácticas.</p>
+    <div id='projects' className='max-w-[1040px] m-auto md:pl-20'>
+      <h1 className='text-6xl lg:mt-20 font-bold text-center text-[#FFF] border-b-2 mt-2 p-6 md:p-12'>Proyectos</h1>
       <div className='grid sm:grid-cols-2 gap-7 pt-16'>
         {projects.map((project) => (
           <ProjectItem
