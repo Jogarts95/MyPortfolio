@@ -5,7 +5,7 @@ const AboutMe = () => {
 		<div className="max-w-[1040px] m-auto md:pl-20" id="aboutMe" >
 
 			<div className="w-[100%] mt-10">
-				<h1 className="text-6xl lg:mt-20 font-bold text-center text-[#FFF] border-b-2 mt-2 p-6 md:p-12">
+				<h1 className="text-4xl md:text-6xl lg:mt-20 font-bold text-center text-[#FFF] border-b-2 mt-2 p-6 md:p-12">
 					Acerca de mí
 				</h1>
 
