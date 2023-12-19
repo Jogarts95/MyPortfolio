@@ -1,9 +1,9 @@
 import React from 'react';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
-const ProjectItem = ({ img, title, description, git, demo }) => {
+const ProjectItem = ({ img, title, description, git, demo, revealClass }) => {
     return (
-        <div className='relative'>
+        <div className={`relative project-item ${revealClass}`}>
             {/* Card */}
             <div className={'relative w-full h-[250px] flex flex-col justify-between'}>
                 {/* Image */}

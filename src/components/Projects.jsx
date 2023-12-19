@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import ScrollReveal from 'scrollreveal';
 import ProjectItem from './ProjectItem';
-import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';  // Importa los iconos de GitHub y Demo
 import EcommerceImg from '../assets/portfolio-images/ecommerce-app.png';
 import CitasImg from '../assets/portfolio-images/image2.png';
 import RickAndMortyImg from '../assets/portfolio-images/image3.png';
@@ -42,10 +42,31 @@ const Projects = () => {
     },
   ];
 
+  useEffect(() => {
+    ScrollReveal().reveal('.projects-title', {
+      distance: '20px',
+      origin: 'top',
+      duration: 3000,
+      delay: 300,
+      easing: 'cubic-bezier(0.5, 0, 0, 1)',
+    });
+
+    projects.forEach((project) => {
+      const origin = project.id % 2 === 0 ? 'right' : 'left'; // Alterna entre izquierda y derecha según el id
+      ScrollReveal().reveal(`.project-item-${project.id}`, {
+        distance: `${20 + project.id * 10}px`, // Ajusta la distancia según el id
+        origin: origin,
+        duration: 2000 + project.id * 500, // Ajusta la duración según el id
+        delay: 300 + project.id * 200, // Ajusta el retraso según el id
+        easing: 'cubic-bezier(0.5, 0, 0, 1)',
+      });
+    });
+  }, [projects]);
+
   return (
     <div id='projects' className='max-w-[1040px] m-auto md:pl-20'>
-      <h1 className='text-6xl lg:mt-20 font-bold text-center text-[#FFF] border-b-2 mt-2 p-6 md:p-12'>Proyectos</h1>
-      <div className='grid sm:grid-cols-2 gap-7 pt-16'>
+      <h1 className='text-4xl md:text-6xl lg:mt-20 font-bold text-center text-[#FFF] border-b-2 mt-2 p-6 md:p-12 projects-title'>Proyectos</h1>
+      <div className='grid sm:grid-cols-2 gap-7 pt-16 projects-cards'>
         {projects.map((project) => (
           <ProjectItem
             key={project.id}
@@ -54,6 +75,7 @@ const Projects = () => {
             description={project.description}
             git={project.git}
             demo={project.demo}
+            revealClass={`project-item-${project.id}`}
           />
         ))}
       </div>
