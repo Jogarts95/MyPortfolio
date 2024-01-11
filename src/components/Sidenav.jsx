@@ -58,6 +58,19 @@ const Sidenav = () => {
 
             <a
               onClick={handleNav}
+              href="#skills"
+              className='w-[75%] flex justify-center items-center rounded-full shadow-md shadow-slate-800 bg-[#000]/5 backdrop-blur-sm m-2 p-2 cursor-pointer hover:scale-110 ease-in duration-200'>
+              <BsPerson
+                className='text-[#fff]'
+                size={20} />
+              <span
+                className='pl-4 text-[#fff]'>
+                Resume
+              </span>
+            </a>
+
+            <a
+              onClick={handleNav}
               href="#projects"
               className='w-[75%] flex justify-center items-center rounded-full shadow-md shadow-slate-800 bg-[#000]/5 backdrop-blur-sm m-2 p-2 cursor-pointer hover:scale-110 ease-in duration-200'>
               <AiOutlineProject
@@ -66,19 +79,6 @@ const Sidenav = () => {
               <span
                 className='pl-4 text-[#fff]'>
                 Proyectos
-              </span>
-            </a>
-
-            <a
-              onClick={handleNav}
-              href="#main"
-              className='w-[75%] flex justify-center items-center rounded-full shadow-md shadow-slate-800 bg-[#000]/5 backdrop-blur-sm m-2 p-2 cursor-pointer hover:scale-110 ease-in duration-200'>
-              <BsPerson
-                className='text-[#fff]'
-                size={20} />
-              <span
-                className='pl-4 text-[#fff]'>
-                Resume
               </span>
             </a>
 
@@ -109,12 +109,12 @@ const Sidenav = () => {
             <FaThLarge className='text-[#fff] hover:text-[#000] hover:bg-[#affc4f] m-1 p-2 cursor-pointer hover:scale-110 ease-in duration-300' size={40} />
           </a>
 
-          <a href="#projects" className=''>
-            <AiOutlineProject className='text-[#fff] hover:text-[#000] hover:bg-[#affc4f] m-1 p-2 cursor-pointer hover:scale-110 ease-in duration-300' size={40} />
+          <a href="#skills" className=''>
+            <BsPerson className='text-[#fff] hover:text-[#000] hover:bg-[#affc4f] m-1 p-2 cursor-pointer hover:scale-110 ease-in duration-300' size={40} />
           </a>
 
-          <a href="#main" className=''>
-            <BsPerson className='text-[#fff] hover:text-[#000] hover:bg-[#affc4f] m-1 p-2 cursor-pointer hover:scale-110 ease-in duration-300' size={40} />
+          <a href="#projects" className=''>
+            <AiOutlineProject className='text-[#fff] hover:text-[#000] hover:bg-[#affc4f] m-1 p-2 cursor-pointer hover:scale-110 ease-in duration-300' size={40} />
           </a>
 
           <a href="#contacto" className=''>

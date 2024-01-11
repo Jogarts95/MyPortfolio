@@ -4,6 +4,8 @@ import Main from './components/Main'
 import AboutMe from './components/AboutMe'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
+import Skills from './components/Skills'
+
 
 function App() {
 
@@ -12,6 +14,7 @@ function App() {
       <Sidenav/>
       <Main/>
       <AboutMe/>
+      <Skills/>
       <Projects/>
       <Contact/>
     </div>

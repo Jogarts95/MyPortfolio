@@ -7,24 +7,24 @@ const AboutMe = () => {
     ScrollReveal().reveal(".about-me-text", {
       distance: "20px",
       origin: "bottom",
-      duration: 3000,
-      delay: 300,
+      duration: 1000,
+      delay: 100,
       easing: "cubic-bezier(0.5, 0, 0, 1)",
     });
 
 	ScrollReveal().reveal(".about-me-image", {
 		distance: "20px",
 		origin: "right",
-		duration: 4000,
-		delay: 300,
+		duration: 1000,
+		delay: 100,
 		easing: "cubic-bezier(0.5, 0, 0, 1)",
 	  });
   
 	  ScrollReveal().reveal(".about-me-title", {
 		  distance: "20px",
 		  origin: "top",
-		  duration: 2000,
-		  delay: 300,
+		  duration: 1000,
+		  delay: 100,
 		  easing: "cubic-bezier(0.5, 0, 0, 1)",
 		});
   }, []);

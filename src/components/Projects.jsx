@@ -46,8 +46,8 @@ const Projects = () => {
     ScrollReveal().reveal('.projects-title', {
       distance: '20px',
       origin: 'top',
-      duration: 3000,
-      delay: 300,
+      duration: 1000,
+      delay: 100,
       easing: 'cubic-bezier(0.5, 0, 0, 1)',
     });
 
@@ -56,8 +56,8 @@ const Projects = () => {
       ScrollReveal().reveal(`.project-item-${project.id}`, {
         distance: `${20 + project.id * 10}px`, // Ajusta la distancia según el id
         origin: origin,
-        duration: 2000 + project.id * 500, // Ajusta la duración según el id
-        delay: 300 + project.id * 200, // Ajusta el retraso según el id
+        duration: 500 + project.id * 150, // Ajusta la duración según el id
+        delay: 100 + project.id * 50, // Ajusta el retraso según el id
         easing: 'cubic-bezier(0.5, 0, 0, 1)',
       });
     });
