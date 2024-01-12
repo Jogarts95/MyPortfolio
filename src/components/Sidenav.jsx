@@ -65,7 +65,7 @@ const Sidenav = () => {
                 size={20} />
               <span
                 className='pl-4 text-[#fff]'>
-                Resume
+                Herramientas
               </span>
             </a>
 
